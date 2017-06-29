@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Commodity Game</title>
+  <script src="vendors/angular.min.js" charset="utf-8"></script>
+  <script src="client.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="vendors/bootstrap.min.css">
+</head>
+
+<body ng-app='myApp'>
+  <div class='container' ng-controller='CommodityController as cc' ng-init='cc.fillObjectArray()'>
+    <h1>Commodity Game</h1>
+    <h2>Wallet: {{cc.wallet | currency}}</h2>
+    <div class="" ng-repeat='item in cc.commodities'>
+      <p>{{item.name}}</p>
+      <p>{{item.price | currency}}</p>
+
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "commodity-game",
+  "version": "1.0.0",
+  "description": "Lindsey Olson Helena Black Moises Miguel Hogan McDonald",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoganMcDonald/commodity-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HoganMcDonald/commodity-game/issues"
+  },
+  "homepage": "https://github.com/HoganMcDonald/commodity-game#readme"
+}
